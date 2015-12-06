@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "LeftMenuView.h"
+#import "UntitledView.h"
+
 
 #define ScreenWidth  [[UIScreen mainScreen] bounds].size.width
 #define ScreenHeight  [[UIScreen mainScreen] bounds].size.height
@@ -16,6 +18,7 @@
 @interface ViewController ()
 {
     BOOL _showLeftMenu;
+    UntitledView *_testView;
 }
 
 @property(nonatomic,strong)LeftMenuView *leftMenu;
@@ -29,8 +32,39 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    
+    UIButton *testBtn =[UIButton buttonWithType:UIButtonTypeCustom];
+    testBtn.frame =CGRectMake(0, 120, 60, 60);
+    testBtn.backgroundColor =[UIColor redColor];
+    [testBtn addTarget:self action:@selector(test:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:testBtn];
+    
+    _testView =[[UntitledView alloc] initWithFrame:CGRectMake(0, 200, 60, 60)];
+    _testView.backgroundColor =[UIColor blueColor];
+    [self.view addSubview:_testView];
 }
 
+/**
+ *  测试按钮
+ *
+ *  @param sender
+ */
+-(void)test:(UIButton *)sender
+{
+    if (sender.selected) {
+        [_testView addOpenAnimation];
+    }else{
+        NSLog(@"123456");
+    }
+    sender.selected =!sender.selected;
+}
+
+
+/**
+ *  左边菜单按钮
+ *
+ *  @param sender
+ */
 - (IBAction)leftMenu:(UIBarButtonItem *)sender
 {
     [self creatLeftMenu];

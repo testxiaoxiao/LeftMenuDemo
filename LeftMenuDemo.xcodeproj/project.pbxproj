@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD4B6C271C13F53A00E9CDBF /* UntitledView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B6C261C13F53A00E9CDBF /* UntitledView.m */; };
+		CD4B6C2D1C13F54D00E9CDBF /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4B6C291C13F54D00E9CDBF /* trash.png */; };
+		CD4B6C2E1C13F54D00E9CDBF /* trash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4B6C2A1C13F54D00E9CDBF /* trash@2x.png */; };
+		CD4B6C2F1C13F54D00E9CDBF /* trashlid.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4B6C2B1C13F54D00E9CDBF /* trashlid.png */; };
+		CD4B6C301C13F54D00E9CDBF /* trashlid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4B6C2C1C13F54D00E9CDBF /* trashlid@2x.png */; };
 		CD506F711A7D42D00078BF24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD506F701A7D42D00078BF24 /* main.m */; };
 		CD506F741A7D42D00078BF24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD506F731A7D42D00078BF24 /* AppDelegate.m */; };
 		CD506F771A7D42D00078BF24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD506F761A7D42D00078BF24 /* ViewController.m */; };
@@ -28,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD4B6C251C13F53A00E9CDBF /* UntitledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UntitledView.h; sourceTree = "<group>"; };
+		CD4B6C261C13F53A00E9CDBF /* UntitledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UntitledView.m; sourceTree = "<group>"; };
+		CD4B6C291C13F54D00E9CDBF /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
+		CD4B6C2A1C13F54D00E9CDBF /* trash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trash@2x.png"; sourceTree = "<group>"; };
+		CD4B6C2B1C13F54D00E9CDBF /* trashlid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trashlid.png; sourceTree = "<group>"; };
+		CD4B6C2C1C13F54D00E9CDBF /* trashlid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trashlid@2x.png"; sourceTree = "<group>"; };
 		CD506F6B1A7D42D00078BF24 /* LeftMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeftMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD506F6F1A7D42D00078BF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD506F701A7D42D00078BF24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +74,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD4B6C281C13F54D00E9CDBF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B6C291C13F54D00E9CDBF /* trash.png */,
+				CD4B6C2A1C13F54D00E9CDBF /* trash@2x.png */,
+				CD4B6C2B1C13F54D00E9CDBF /* trashlid.png */,
+				CD4B6C2C1C13F54D00E9CDBF /* trashlid@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		CD506F621A7D42CF0078BF24 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +106,9 @@
 		CD506F6D1A7D42D00078BF24 /* LeftMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CD4B6C281C13F54D00E9CDBF /* images */,
+				CD4B6C251C13F53A00E9CDBF /* UntitledView.h */,
+				CD4B6C261C13F53A00E9CDBF /* UntitledView.m */,
 				CD506F721A7D42D00078BF24 /* AppDelegate.h */,
 				CD506F731A7D42D00078BF24 /* AppDelegate.m */,
 				CD506F751A7D42D00078BF24 /* ViewController.h */,
@@ -205,7 +230,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD506F7A1A7D42D00078BF24 /* Main.storyboard in Resources */,
+				CD4B6C2E1C13F54D00E9CDBF /* trash@2x.png in Resources */,
+				CD4B6C301C13F54D00E9CDBF /* trashlid@2x.png in Resources */,
+				CD4B6C2F1C13F54D00E9CDBF /* trashlid.png in Resources */,
 				CD506F7F1A7D42D00078BF24 /* LaunchScreen.xib in Resources */,
+				CD4B6C2D1C13F54D00E9CDBF /* trash.png in Resources */,
 				CD506F7C1A7D42D00078BF24 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD506F961A7D43180078BF24 /* LeftMenuView.m in Sources */,
+				CD4B6C271C13F53A00E9CDBF /* UntitledView.m in Sources */,
 				CD506F771A7D42D00078BF24 /* ViewController.m in Sources */,
 				CD506F741A7D42D00078BF24 /* AppDelegate.m in Sources */,
 				CD506F711A7D42D00078BF24 /* main.m in Sources */,
@@ -418,6 +448,7 @@
 				CD506F901A7D42D00078BF24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD506F911A7D42D00078BF24 /* Build configuration list for PBXNativeTarget "LeftMenuDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +457,7 @@
 				CD506F931A7D42D00078BF24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
