@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49F497291C1966C70087B5F2 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F497281C1966C70087B5F2 /* TestModel.m */; };
 		CD4B6C271C13F53A00E9CDBF /* UntitledView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B6C261C13F53A00E9CDBF /* UntitledView.m */; };
 		CD4B6C2D1C13F54D00E9CDBF /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4B6C291C13F54D00E9CDBF /* trash.png */; };
 		CD4B6C2E1C13F54D00E9CDBF /* trash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4B6C2A1C13F54D00E9CDBF /* trash@2x.png */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49F497271C1966C70087B5F2 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		49F497281C1966C70087B5F2 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		CD4B6C251C13F53A00E9CDBF /* UntitledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UntitledView.h; sourceTree = "<group>"; };
 		CD4B6C261C13F53A00E9CDBF /* UntitledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UntitledView.m; sourceTree = "<group>"; };
 		CD4B6C291C13F54D00E9CDBF /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				CD506F761A7D42D00078BF24 /* ViewController.m */,
 				CD506F941A7D43180078BF24 /* LeftMenuView.h */,
 				CD506F951A7D43180078BF24 /* LeftMenuView.m */,
+				49F497271C1966C70087B5F2 /* TestModel.h */,
+				49F497281C1966C70087B5F2 /* TestModel.m */,
 				CD506F781A7D42D00078BF24 /* Main.storyboard */,
 				CD506F7B1A7D42D00078BF24 /* Images.xcassets */,
 				CD506F7D1A7D42D00078BF24 /* LaunchScreen.xib */,
@@ -256,6 +261,7 @@
 				CD506F961A7D43180078BF24 /* LeftMenuView.m in Sources */,
 				CD4B6C271C13F53A00E9CDBF /* UntitledView.m in Sources */,
 				CD506F771A7D42D00078BF24 /* ViewController.m in Sources */,
+				49F497291C1966C70087B5F2 /* TestModel.m in Sources */,
 				CD506F741A7D42D00078BF24 /* AppDelegate.m in Sources */,
 				CD506F711A7D42D00078BF24 /* main.m in Sources */,
 			);
